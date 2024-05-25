@@ -1,0 +1,148 @@
+[
+    {
+        "numero": 32,
+        "nombre": "Nidoran♂",
+        "tipo": ["Veneno"],
+        "imagen": "images/nidoran-m.webp",
+        "evolucion": {"numero": 33, "nombre": "Nidorino"},
+        "movimientos_normales": ["Picotazo", "Picotazo veneno"],
+        "movimientos_especiales": ["Bomba lodo", "Golpe cuerpo", "Cornada, Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 33,
+        "nombre": "Nidorino",
+        "tipo": ["Veneno"],
+        "imagen": "images/nidorino.webp",
+        "prevolucion": {"numero": 32, "nombre": "Nidoran♂"},
+        "evolucion": {"numero": 34, "nombre": "Nidoking"},
+        "movimientos_normales": ["Puya nociva", "Picotazo veneno"],
+        "movimientos_especiales": ["Bomba lodo", "Cornada", "Excavar", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 34,
+        "nombre": "Nidoking",
+        "tipo": ["Veneno"],
+        "imagen": "images/nidoking.webp",
+        "prevolucion": {"numero": 33, "nombre": "Nidorino"},
+        "movimientos_normales": ["Cola férrea", "Puya nociva", "Corte furia (elite)"],
+        "movimientos_especiales": ["Megacuerno", "Onda tóxica", "Terremoto", "Tierra viva", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 35,
+        "nombre": "Clefairy",
+        "tipo": ["Hada"],
+        "imagen": "images/clefairy.webp",
+        "evolucion": {"numero": 36, "nombre": "Clefable"},
+        "movimientos_normales": ["Cabezazo zen", "Destructor"],
+        "movimientos_especiales": ["Fuerza lunar", "Golpe cuerpo", "Voz cautivadora"]
+    },
+    {
+        "numero": 36,
+        "nombre": "Clefable",
+        "tipo": ["Hada"],
+        "imagen": "images/clefable.webp",
+        "prevolucion": {"numero": 35, "nombre": "Clefairy"},
+        "movimientos_normales": ["Cabezazo zen", "Rayo carga", "Encanto", "Destructor (elite)"],
+        "movimientos_especiales": ["Brillo mágico", "Fuerza lunar", "Psíquico", "Puño meteoro"]
+    },
+    {
+        "numero": 37,
+        "nombre": "Vulpix",
+        "tipo": ["Fuego"],
+        "imagen": "images/vulpix.webp",
+        "evolucion": {"numero": 38, "nombre": "Ninetales"},
+        "movimientos_normales": ["Ascuas", "Ataque rápido"],
+        "movimientos_especiales": ["Golpe cuerpo", "Lanzallamas", "Nitrocarga", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 38,
+        "nombre": "Ninetales",
+        "tipo": ["Fuego"],
+        "imagen": "images/ninetales.webp",
+        "prevolucion": {"numero": 37, "nombre": "Vulpix"},
+        "movimientos_normales": ["Finta", "Giro fuego", "Ascuas (elite)"],
+        "movimientos_especiales": ["Onda ígnea", "Rayo solar", "Sofoco", "Psicocarga", "Lanzallamas (elite)", "Llamarada (elite)", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 39,
+        "nombre": "Jigglypuff",
+        "tipo": ["Normal", "Hada"],
+        "imagen": "images/jigglypuff.webp",
+        "evolucion": {"numero": 40, "nombre": "Wigglytuff"},
+        "movimientos_normales": ["Destructor", "Finta"],
+        "movimientos_especiales": ["Brillo mágico", "Giro bola", "Voz cautivadora", "Carantoña (elite)", "Golpe cuerpo (elite)"]
+    },
+    {
+        "numero": 40,
+        "nombre": "Wigglytuff",
+        "tipo": ["Normal", "Hada"],
+        "imagen": "images/wigglytuff.webp",
+        "prevolucion": {"numero": 39, "nombre": "Jigglypuff"},
+        "movimientos_normales": ["Finta", "Destructor", "Encanto"],
+        "movimientos_especiales": ["Brillo mágico", "Hiperrayo", "Carantoña", "Rayo hielo"]
+    },
+    {
+        "numero": 41,
+        "nombre": "Zubat",
+        "tipo": ["Veneno", "Volador"],
+        "imagen": "images/zubat.webp",
+        "evolucion": {"numero": 42, "nombre": "Golbat"},
+        "movimientos_normales": ["Ataque rápido", "Mordisco"],
+        "movimientos_especiales": ["Aire afilado", "Colmillo veneno", "Rapidez", "Bomba lodo (elite)", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 42,
+        "nombre": "Golbat",
+        "tipo": ["Veneno", "Volador"],
+        "imagen": "images/golbat.webp",
+        "prevolucion": {"numero": 41, "nombre": "Zubat"},
+        "movimientos_normales": ["Ataque ala", "Mordisco"],
+        "movimientos_especiales": ["Aire afilado", "Bola sombra", "Colmillo veneno", "Viento aciago (elite)", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 43,
+        "nombre": "Oddish",
+        "tipo": ["Planta", "Veneno"],
+        "imagen": "images/oddish.webp",
+        "evolucion": {"numero": 44, "nombre": "Gloom"},
+        "movimientos_normales": ["Hoja afilada", "Ácido"],
+        "movimientos_especiales": ["Fuerza lunar", "Bomba lodo", "Bomba germen", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 44,
+        "nombre": "Gloom",
+        "tipo": ["Planta", "Veneno"],
+        "imagen": "images/gloom.webp",
+        "prevolucion": {"numero": 43, "nombre": "Oddish"},
+        "evolucion": {"numero": 45, "nombre": "Vileplume"},
+        "movimientos_normales": ["Ácido", "Hoja afilada"],
+        "movimientos_especiales": ["Bomba lodo", "Fuerza lunar", "Tormenta floral", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 45,
+        "nombre": "Vileplume",
+        "tipo": ["Planta", "Veneno"],
+        "imagen": "images/vileplume.webp",
+        "prevolucion": {"numero": 44, "nombre": "Gloom"},
+        "movimientos_normales": ["Ácido", "Hoja afilada"],
+        "movimientos_especiales": ["Fuerza lunar", "Tormenta floral", "Rayo solar", "Bomba lodo", "Retribución (purificado)", "Frustración (oscuro)"]
+    },
+    {
+        "numero": 46,
+        "nombre": "Paras",
+        "tipo": ["Bicho", "Planta"],
+        "imagen": "images/paras.webp",
+        "evolucion": {"numero": 47, "nombre": "Parasect"},
+        "movimientos_normales": ["Arañazo", "Picadura"],
+        "movimientos_especiales": ["Bomba germen", "Tijera X", "Veneno X"]
+    },
+    {
+        "numero": 47,
+        "nombre": "Parasect",
+        "tipo": ["Bicho", "Planta"],
+        "imagen": "images/Parasect.webp",
+        "prevolucion": {"numero": 46, "nombre": "Paras"},
+        "movimientos_normales": ["Corte furia", "Estoicismo", "Picadura (elite)"],
+        "movimientos_especiales": ["Rayo solar", "Tijera X", "Veneno X"]
+    }
+]

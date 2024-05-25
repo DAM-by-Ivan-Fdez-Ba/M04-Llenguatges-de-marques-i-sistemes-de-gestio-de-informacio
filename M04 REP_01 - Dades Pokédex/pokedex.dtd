@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pokedex (pokemon+)>
+<!ELEMENT pokemon (nombre, tipo+, imagen, prevolucion?, evolucion?, movimientos_normales+, movimientos_especiales+)>
+<!ATTLIST pokemon numero CDATA "">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT prevolucion (numero, nombre)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT evolucion (numero, nombre)>
+<!ELEMENT movimientos_normales (#PCDATA)>
+<!ELEMENT movimientos_especiales (#PCDATA)>
