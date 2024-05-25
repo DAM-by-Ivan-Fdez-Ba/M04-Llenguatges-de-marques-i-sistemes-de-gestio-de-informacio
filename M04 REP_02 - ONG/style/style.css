@@ -1,0 +1,653 @@
+body{
+  background-color: #efe5da;
+  color: #2a2839;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 45px;
+}
+
+img{
+  width: 100%;
+}
+
+header{
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-inline: 30px;
+  position: sticky;    
+  position: -webkit-sticky; /* Safari */
+  text-align: center;
+  top: 0;
+  z-index: 1;
+
+  background-color: #8c8484;
+}
+
+footer{
+  width: 100%;
+  
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+
+  background-color: #8c8484;
+}
+
+/* ------------ HEADER FOOTER ----------- */
+.logo{
+  height: 70px;
+  width: auto;
+
+  display: block;
+}
+
+#boton-header{
+  text-align: center;
+  
+  margin: 10px;
+  padding: 10px;
+  
+  background-color: #cde2df; 
+  border-radius: 15px;
+  color: #2a2839; 
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+#boton-header:hover{
+  color: white;
+}
+
+.nav{
+  width: 45%;
+
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.item-nav{
+  display: block;
+  margin: 0 auto;
+  padding: 14px 16px;
+  text-align: center;
+  
+  color: white;
+  text-decoration: none;
+}
+
+.item-header{
+  font-weight: bold;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.item-header:hover{
+  border-bottom: white solid 2px;
+}
+
+.item-footer:hover{
+  font-weight: bold;
+}
+
+#section-rrss{
+  width: 300px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-rrss{
+  width: 75px;
+  height: 75px; 
+}
+
+#youtube-footer{
+  background-image: url("/images/ytube.svg");
+}
+
+#youtube-footer:hover{
+  background-image: url('/images/ytube-negro.svg');
+}
+
+#instagram-footer{
+  background-image: url("/images/insta.svg");
+}
+
+#instagram-footer:hover{
+  background-image: url("/images/insta-negro.svg");
+}
+
+#twitter-footer{
+  background-image: url("/images/twit.svg");
+}
+
+#twitter-footer:hover{
+  background-image: url("/images/twit-negro.svg");
+}
+
+/* ---------- PAGINA PRINCIPAL ---------- */
+#contenedor-principal{
+  width: 100%;
+  
+  display: inline-block;
+  position: relative;
+}
+
+#contenedor-principal h2{
+  top: 70%;
+  font-size: 40px;
+}
+
+#contenedor-principal p{
+  top: 77%;
+  font-size: 24px;
+}
+  
+.texto-imagen-principal {
+  position: absolute;
+  left: 50px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+  
+#contenedor-principal a{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  top: 85%;
+  
+  background-color: rgba(140, 132, 132, .5); 
+  border-radius: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+  
+#contenedor-principal a:hover {
+  background-color: #8C8484;
+  transform: scale(1.1);
+}
+
+.contenedor-tarjetitas {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 50px;
+}
+  
+.contenedor-tarjetitas article{
+  height: 800px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px; 
+  text-align: center;
+
+  background-color: #cde2df ;
+  border-radius: 20px;
+}
+   
+.contenedor-tarjetitas img {
+  height: 250px;
+  width: 400px;
+}
+  
+.contenedor-tarjetitas p {
+  padding: 27px;
+  text-align: justify;
+  
+  font-size: 20px;
+}
+  
+.boton-principal {
+  margin-bottom: 50px;
+  padding: 10px;
+  text-align: center;
+  
+  background-color: #2a2839; 
+  border-radius: 20px;
+  color: #cde2df;
+  font-size: 35px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+.boton-principal:hover {
+  color: white;
+  transform: scale(1.1);
+}
+  
+#grande {
+  height: 900px;
+  width: 500px;
+}
+
+#grande img {
+  height: 300px;
+  width: 450px;
+}
+
+#grande h2 {
+  font-size: 50px;
+}
+
+#grande p {
+  font-size: 22px;
+}
+
+#grande a {
+  font-size: 40px;
+}
+
+#contenedor-nosotros{
+  text-align: center;
+}
+
+#contenedor-nosotros h2{
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+#contenedor-nosotros h3{
+  font-size: 40px;
+}
+
+#contenedor-nosotros article{
+  height: 850px;
+  width: 500px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contenedor-nosotros img{
+  height: auto;
+  width: 100%;
+
+  border-radius: 20px 20px 0 0;
+}
+
+#contenedor-nosotros p{
+  font-size: 24px;
+  margin: 0;
+}
+
+/* ------------- QUE HACEMOS ------------ */
+#main-que-hacemos {
+  padding-inline: 100px;
+  padding-top: 50px;
+}
+  
+#article-que-hacemos{
+  background-color: #cde2df;
+  border-radius: 20px;
+  display: flex;
+  height: 700px;
+}
+
+#article-que-hacemos h3{
+  margin-bottom: 0;
+  
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#article-que-hacemos section{
+  flex-direction: column;
+  height: max-content;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#article-que-hacemos a{
+  margin: 0px;
+  position: absolute;
+  top: 98%;
+ 
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#article-que-hacemos p{
+  font-size: 22px;
+}
+
+#article-que-hacemos h6{
+  margin-top: 0;
+
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#article-que-hacemos img{
+  height: 100%;
+  width: 250%;
+}
+
+#section-cajitas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: space-between;  
+}
+
+#section-cajitas article{
+  flex-direction: column;
+  height: 400px;
+  margin-block: 30px;
+  padding: 15px;
+  width: 22%;
+  
+  background-color: #cde2df;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+}
+
+#section-cajitas a{
+  color: #2a2839;
+  text-decoration: none;
+}
+
+#section-cajitas article:hover{
+  transform: scale(1.05);
+}
+
+#section-cajitas h4{
+  margin-block: 5%;
+  
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+#section-cajitas p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* ------------ QUIENES SOMOS ----------- */
+#quienes-somos{
+  padding-inline: 100px;
+  padding-top: 50px;
+}
+
+#quienes-somos p{
+  font-size: 20px;
+  text-align: justify;
+}
+
+#quienes-somos article{
+  align-items: center;
+  display: flex;
+}
+
+#quienes-somos img{
+  border-radius: 20px;
+  width: 800px;
+}
+
+#quienes-somos-img-1{
+  margin-left: 70px;
+}
+
+#quienes-somos-img-2{
+  margin-right: 70px;
+}
+
+#article-que-nos-define{
+  flex-direction: column;
+}
+
+/* ------------- DONACIONES ------------- */
+#main-donaciones {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+ 
+#main-donaciones p {
+  margin-top: 0;
+  font-size: 23px;
+}
+  
+/* -------------- CONTACTO -------------- */
+#section-contacto {
+  text-align: center;
+}
+  
+#logo-contacto {
+  width: 50%;
+  height: auto;
+  margin: 0;
+}
+
+#section-contacto h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+#section-contacto h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#section-contacto a {
+  color: #2a2839;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.icono-rrss {
+  width: 3%;
+  margin: 20px;
+}
+
+#datos-contacto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#section-contacto p {
+  font-size: 20px;
+  margin: 0;
+}
+  
+/* ------------ HAZTE SOCIO ------------- */
+  #main-socio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #main-socio p {
+    font-size: 23px;
+  }
+
+  #main label {
+    font-size: 20px;
+  }
+  /* -------------- FORMULARIO -------------- */
+.formulario{
+  border: 1px solid #2a2839;
+  background-color: #cde2df;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-inline: 50px;
+  padding-block: 20px;
+  width: 30%;
+}
+  
+.seleccion-dinero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+.seleccion-dinero input[type="radio"]{
+  display: none;
+}
+
+.seleccion-dinero input[type="radio"]:not(:checked) + label {
+  background-color: #efe5da;
+}
+
+.seleccion-dinero input[type="radio"]:checked + label{
+  background-color: #2a2839;
+  color: white;
+}
+  
+.seleccion-dinero label{
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-block: 10px;
+  width: 45%;
+
+  background-color: #efe5da;
+  border: 1px solid #2a2839;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+}
+  
+.formulario p{
+  border: 1px solid #2a2839;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 23px;
+  margin-bottom: 0;
+}
+  
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="text"],
+select {
+    padding: 7px;
+    margin-block: 10px;
+    width: 100%;
+
+    background-color: #efe5da;
+    border: 1px solid #2a2839;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.formulario input[type="number"]{
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+#acepto-donar-label {
+  font-size: 20px;
+}
+  
+.formulario input[type="submit"]{
+  height: 60px;
+  margin-top: 23px;
+  padding-inline: 15px;
+  width: fit-content;
+  
+  background-color: #efe5da;
+  border: 1px solid #2a2839;
+  border-radius: 13px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.formulario input[type="submit"]:hover{
+  background-color: #2a2839;
+  color: white;
+}
+  
+#temas {
+  border: 1px solid #2a2839;
+  border-radius: 5px;
+}
+
+#nombre {
+  width: 50%;
+}
+
+#tratamiento {
+  width: auto;
+}
+
+#div-nombre-tratamiento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#div-nombre-tratamiento label {
+  font-size: 23px;
+}
+
+#div-cp-tel {
+  display: flex;
+  justify-content: space-between;
+}
+
+#div-cp-tel input[type="number"] {
+  width: 47%;
+}
+
+#temas div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 20px;
+}
+
+#div-leido {
+  margin-top: 10px;
+}
+
+#div-socio {
+  display: flex;
+  justify-content: center;
+}
+
+#div-donar{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* -------------- MAPA -------------- */
+#map {
+    text-align: center;
+  }
