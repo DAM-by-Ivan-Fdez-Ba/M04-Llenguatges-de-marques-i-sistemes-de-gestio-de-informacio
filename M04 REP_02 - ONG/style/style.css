@@ -118,27 +118,27 @@ footer{
 }
 
 #youtube-footer{
-  background-image: url("/images/ytube.svg");
+  background-image: url("images/ytube.svg");
 }
 
 #youtube-footer:hover{
-  background-image: url('/images/ytube-negro.svg');
+  background-image: url('images/ytube-negro.svg');
 }
 
 #instagram-footer{
-  background-image: url("/images/insta.svg");
+  background-image: url("images/insta.svg");
 }
 
 #instagram-footer:hover{
-  background-image: url("/images/insta-negro.svg");
+  background-image: url("images/insta-negro.svg");
 }
 
 #twitter-footer{
-  background-image: url("/images/twit.svg");
+  background-image: url("images/twit.svg");
 }
 
 #twitter-footer:hover{
-  background-image: url("/images/twit-negro.svg");
+  background-image: url("images/twit-negro.svg");
 }
 
 /* ---------- PAGINA PRINCIPAL ---------- */
