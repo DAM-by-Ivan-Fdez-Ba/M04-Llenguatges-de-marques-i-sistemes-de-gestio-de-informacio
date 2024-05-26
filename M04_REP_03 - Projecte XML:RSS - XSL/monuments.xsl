@@ -48,7 +48,7 @@
 
     <xsl:template match="monument">
         <a class="item" target="_blanck" href="https://ca.wikipedia.org/wiki/{url}">
-            <img src="/images/{image}.png"></img>
+            <img src="images/{image}.png"></img>
             <h3><xsl:value-of select="name"/></h3>
             <h4><xsl:value-of select="place"/></h4>
         </a>
